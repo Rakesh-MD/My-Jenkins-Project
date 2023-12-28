@@ -30,6 +30,12 @@ pipeline{
                 echo "Planinng....................!"
             }
         }
+        stage("Coding"){
+            steps{
+                sh 'sleep 20'
+                echo "...................!"
+            }
+        }
       
                   
     }
