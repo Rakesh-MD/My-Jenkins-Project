@@ -12,6 +12,12 @@ pipeline{
                 echo "Testing.................!"
             }
         }
+          stage("Q&A"){
+            steps{
+                sh 'sleep 30'
+                echo "Checking...................!"
+            }
+        }
       
                   
     }
