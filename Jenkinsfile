@@ -2,16 +2,17 @@ pipeline{
     agent any
     stages{
         stage('Build'){
-            step{
+            steps{
                 echo "Hi this going to build the"
             }
         }
         stage("Test"){
-            step{
+            steps{
                 sh 'sleep(10)'
                 echo "Testing.................!"
             }
         }
+        
             
     }
 }
