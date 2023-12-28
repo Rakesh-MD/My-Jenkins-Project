@@ -8,16 +8,11 @@ pipeline{
         }
         stage("Test"){
             steps{
-                'sh sleep(10)'
+                sh 'sleep 10'
                 echo "Testing.................!"
             }
         }
-        stage("Q&A"){
-            steps{
-                sh 'sleep(30)'
-                echo "Checking...................!"
-            }
-        }
+      
                   
     }
 }
