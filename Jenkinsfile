@@ -27,7 +27,7 @@ pipeline{
         stage("Plan"){
             steps{
                 sh 'sleep 20'
-                echo "Planinng..................!"
+                echo "Planinng....................!"
             }
         }
       
