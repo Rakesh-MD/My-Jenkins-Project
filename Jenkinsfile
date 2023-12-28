@@ -14,7 +14,13 @@ pipeline{
         }
           stage("Q&A"){
             steps{
-                sh 'sleep 30'
+                sh 'sleep 15'
+                echo "Checking...................!"
+            }
+        }
+        stage("Release"){
+            steps{
+                sh 'sleep 20'
                 echo "Checking...................!"
             }
         }
